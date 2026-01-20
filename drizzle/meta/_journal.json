@@ -1,0 +1,34 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1768653929319,
+      "tag": "0000_aspiring_jack_murdock",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1768654044515,
+      "tag": "0001_rainy_scorpion",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1768658044948,
+      "tag": "0002_bumpy_next_avengers",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1768860642943,
+      "tag": "0003_fixed_whizzer",
+      "breakpoints": true
+    }
+  ]
+}

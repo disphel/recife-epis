@@ -1,0 +1,15 @@
+{
+  "query": "SELECT name, entradas, entradas_detalhadas FROM accounts WHERE name = 'Sicred Filial' LIMIT 1;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 22thLAJgyEXd1wq.2bc18e9aa3cd --database Zh3zG2qoKW5KNMnMDA2xj3 --execute SELECT name, entradas, entradas_detalhadas FROM accounts WHERE name = 'Sicred Filial' LIMIT 1;",
+  "rows": [
+    {
+      "name": "Sicred Filial",
+      "entradas": "0.00",
+      "entradas_detalhadas": "NULL"
+    }
+  ],
+  "messages": [],
+  "stdout": "name\tentradas\tentradas_detalhadas\nSicred Filial\t0.00\tNULL\n",
+  "stderr": "",
+  "execution_time_ms": 89
+}
