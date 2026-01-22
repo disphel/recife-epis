@@ -2,11 +2,15 @@ import express from "express";
 import { createServer } from "http";
 import path from "path";
 import { fileURLToPath } from "url";
+import { initializeDatabase } from "./db";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 async function startServer() {
+  // Initialize database
+  await initializeDatabase();
+  
   const app = express();
   const server = createServer(app);
 
